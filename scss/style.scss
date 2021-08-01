@@ -1,0 +1,320 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+$color-body: rgb(228, 228, 228);
+$color-nav: rgb(35, 63, 86);
+$color-titles: rgb(111, 154, 169);
+$color-footer: rgb(170, 189, 204);
+$size-h1: 24px;
+$size-h2: 18px;
+$size-p: 14px;
+$size-small: 12px;
+
+
+body {
+	background-color: $color-body;
+	display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		min-height: 100vh;
+	>header {
+			nav.navbar {
+				background-color: $color-nav;
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+			}
+		}
+	div.containerIndex {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		section.portada {
+			margin: 30px;
+			article.carousel__inicio {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				>h1.carousel__inicio--destacado {
+					font-family: 'Poppins', sans-serif;
+					font-size: $size-h1;
+					font-style: normal;
+					font-weight: bold;
+					color: $color-titles;
+					text-align: left;
+					margin: 50px 0px 10px 0px;
+				}
+				.carousel__inicio--parrafoLema {
+					font-family: 'Roboto', sans-serif;
+					font-size: $size-h2;
+					font-weight: bold;
+					font-style: italic;
+					color: $color-nav;
+					line-height: 20px;
+					margin: 30px 50px 50px 50px;
+				}	
+			}
+			
+		}
+		section.estiloConstrucciones {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			margin: 30px;
+			>h1 {
+				font-family: 'Poppins', sans-serif;
+				font-size: $size-h1;
+				font-style: normal;
+				font-weight: bold;
+				color: $color-titles;
+				margin: 30px;
+			}
+			.card-group {
+				margin: 10px;
+			}
+		}
+		
+	}
+	div.containerEmprendimientos {
+		@extend div.containerIndex;
+		justify-content: space-around;
+		width: 100%;
+		min-height: 100vh;
+		section.imagenEmprendimientos {
+			margin: 70px;
+
+			display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+			div { 
+				>.imagenEmprendimientos_titulos {
+					background-color: red;
+					width: 80%;
+					text-align: center;
+				}
+				>h2 {
+					font-family: 'Roboto', sans-serif;
+					font-size: $size-h2;
+					font-style: normal;
+					font-weight: bold;
+					color: $color-nav;
+					margin: 10px;
+					text-align: center;
+				}
+				>p {
+					font-family: 'Roboto', sans-serif;
+					font-size: $size-p;
+					font-weight: normal;
+					color: $color-titles;
+					line-height: 20px;
+					margin: 10px;
+					text-align: center;
+				}
+				>div.imagenEmprendimientos_horizontal {	
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					
+					
+					>article {
+				
+						margin: 20px;
+						>img {
+							width: 500px;
+						}
+					}
+				}
+			}
+    }
+	}
+	div.containerEmpresa {
+		@extend div.containerIndex;
+		width: 100%;
+		min-height: 100vh;
+		section.encabezadoIntroductorio {
+			margin: 10px;
+			display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 90%;
+			margin-top: 70px;
+			article {
+				margin: 0px 30px ;
+				>h1 {
+					font-family: 'Poppins', sans-serif;
+					font-size: $size-h1;
+					font-style: normal;
+					font-weight: bold;
+					color: $color-titles;
+					
+				}
+				>p {
+					font-family: 'Roboto', sans-serif;
+					font-size: $size-p;
+					font-weight: normal;
+					color: $color-titles;
+					line-height: 20px;
+			
+				}
+			}
+  		}
+		
+		section.tabla {
+			margin: 10px;
+			article {
+				h1.tituloTabla {
+					font-family: 'Roboto', sans-serif;
+					font-size: $size-h2;
+					color: $color-titles;
+					font-style: italic;
+					font-weight: bold;
+					text-align: left;
+					text-transform: uppercase;
+				}
+				>table {
+					td {
+						font-family: 'Roboto', sans-serif;
+						color: $color-titles;
+						>ol {
+							list-style: none;
+							list-style-position: inside;
+						}
+						>ul {
+							list-style: none;
+						}
+
+					}
+				}
+			}
+		}
+	}
+
+	div.containerMedios {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		min-height: 100vh;
+		section.cuerpoMedios {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
+			article {
+				>h1 {
+					font-family: 'Poppins', sans-serif;
+					font-size: $size-h1;
+					font-style: normal;
+					font-weight: bold;
+					color: $color-titles;
+					margin: 100px 0px 0px;
+				}
+			}
+			article {
+				>div.card-group {
+					margin: 70px;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+				}
+			}
+
+		}
+	}
+	div.containerContacto {
+		width: 100%;
+		>section {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		
+			margin: 20px;
+			>article {
+				form {
+					width: 80%;
+				}
+				legend {
+					font-family: 'Poppins', sans-serif;
+					font-size: $size-h1;
+					font-style: normal;
+					font-weight: bold;
+					color: $color-titles;
+					margin: 70px 0px 0px;
+				}
+				i {
+					color: $color-titles;
+				}
+				.form-group {
+					margin: 10px;
+				}
+				
+			}
+		}
+	}
+	footer.zocalo {
+		background-color: $color-nav;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		height: 5rem;
+		width: 100%;
+		img.zocalo__logo {
+			width: 20%;
+		}
+		>div>a.zocalo__logoRedes {
+			font-size: 2rem;
+			color: $color-footer ;
+			margin: 0.5rem;	
+		}
+		>div.zocalo__informacion {
+			margin: 0.2rem;
+			>h4.zocalo__informacion--suave {
+				font-family: 'Roboto', sans-serif;
+				font-size: $size-small;
+				font-weight: normal;
+				color: $color-footer;
+				margin: 0.1rem;
+			}
+		}
+	}
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+
+	
+	footer.zocalo {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		height: auto;
+		}
+	}
+
+@media only screen and (max-width: 400px) {
+	footer.zocalo {
+		
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		height: auto;
+		}
+}
+}

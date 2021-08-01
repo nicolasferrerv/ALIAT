@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e4e4e4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body > header nav.navbar {
+  background-color: #233f56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.containerIndex, body div.containerEmprendimientos, body div.containerEmpresa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.containerIndex section.portada, body div.containerEmprendimientos section.portada, body div.containerEmpresa section.portada {
+  margin: 30px;
+}
+
+body div.containerIndex section.portada article.carousel__inicio, body div.containerEmprendimientos section.portada article.carousel__inicio, body div.containerEmpresa section.portada article.carousel__inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div.containerIndex section.portada article.carousel__inicio > h1.carousel__inicio--destacado, body div.containerEmprendimientos section.portada article.carousel__inicio > h1.carousel__inicio--destacado, body div.containerEmpresa section.portada article.carousel__inicio > h1.carousel__inicio--destacado {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6f9aa9;
+  text-align: left;
+  margin: 50px 0px 10px 0px;
+}
+
+body div.containerIndex section.portada article.carousel__inicio .carousel__inicio--parrafoLema, body div.containerEmprendimientos section.portada article.carousel__inicio .carousel__inicio--parrafoLema, body div.containerEmpresa section.portada article.carousel__inicio .carousel__inicio--parrafoLema {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: #233f56;
+  line-height: 20px;
+  margin: 30px 50px 50px 50px;
+}
+
+body div.containerIndex section.estiloConstrucciones, body div.containerEmprendimientos section.estiloConstrucciones, body div.containerEmpresa section.estiloConstrucciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+}
+
+body div.containerIndex section.estiloConstrucciones > h1, body div.containerEmprendimientos section.estiloConstrucciones > h1, body div.containerEmpresa section.estiloConstrucciones > h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6f9aa9;
+  margin: 30px;
+}
+
+body div.containerIndex section.estiloConstrucciones .card-group, body div.containerEmprendimientos section.estiloConstrucciones .card-group, body div.containerEmpresa section.estiloConstrucciones .card-group {
+  margin: 10px;
+}
+
+body div.containerEmprendimientos {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos {
+  margin: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > .imagenEmprendimientos_titulos {
+  background-color: red;
+  width: 80%;
+  text-align: center;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  color: #233f56;
+  margin: 10px;
+  text-align: center;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #6f9aa9;
+  line-height: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal > article {
+  margin: 20px;
+}
+
+body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal > article > img {
+  width: 500px;
+}
+
+body div.containerEmpresa {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body div.containerEmpresa section.encabezadoIntroductorio {
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin-top: 70px;
+}
+
+body div.containerEmpresa section.encabezadoIntroductorio article {
+  margin: 0px 30px;
+}
+
+body div.containerEmpresa section.encabezadoIntroductorio article > h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6f9aa9;
+}
+
+body div.containerEmpresa section.encabezadoIntroductorio article > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #6f9aa9;
+  line-height: 20px;
+}
+
+body div.containerEmpresa section.tabla {
+  margin: 10px;
+}
+
+body div.containerEmpresa section.tabla article h1.tituloTabla {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #6f9aa9;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+body div.containerEmpresa section.tabla article > table td {
+  font-family: 'Roboto', sans-serif;
+  color: #6f9aa9;
+}
+
+body div.containerEmpresa section.tabla article > table td > ol {
+  list-style: none;
+  list-style-position: inside;
+}
+
+body div.containerEmpresa section.tabla article > table td > ul {
+  list-style: none;
+}
+
+body div.containerMedios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body div.containerMedios section.cuerpoMedios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body div.containerMedios section.cuerpoMedios article > h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6f9aa9;
+  margin: 100px 0px 0px;
+}
+
+body div.containerMedios section.cuerpoMedios article > div.card-group {
+  margin: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body div.containerContacto {
+  width: 100%;
+}
+
+body div.containerContacto > section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px;
+}
+
+body div.containerContacto > section > article form {
+  width: 80%;
+}
+
+body div.containerContacto > section > article legend {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color: #6f9aa9;
+  margin: 70px 0px 0px;
+}
+
+body div.containerContacto > section > article i {
+  color: #6f9aa9;
+}
+
+body div.containerContacto > section > article .form-group {
+  margin: 10px;
+}
+
+body footer.zocalo {
+  background-color: #233f56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 5rem;
+  width: 100%;
+}
+
+body footer.zocalo img.zocalo__logo {
+  width: 20%;
+}
+
+body footer.zocalo > div > a.zocalo__logoRedes {
+  font-size: 2rem;
+  color: #aabdcc;
+  margin: 0.5rem;
+}
+
+body footer.zocalo > div.zocalo__informacion {
+  margin: 0.2rem;
+}
+
+body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  color: #aabdcc;
+  margin: 0.1rem;
+}
+
+@media only screen and (min-width: 401px) and (max-width: 768px) {
+  body footer.zocalo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body footer.zocalo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
