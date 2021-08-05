@@ -39,7 +39,7 @@ body > header nav.navbar {
           align-items: center;
 }
 
-body div.containerIndex, body div.containerEmprendimientos, body div.containerEmpresa {
+body div.containerIndex, body div.containerEmpresa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,11 +55,11 @@ body div.containerIndex, body div.containerEmprendimientos, body div.containerEm
           align-items: center;
 }
 
-body div.containerIndex section.portada, body div.containerEmprendimientos section.portada, body div.containerEmpresa section.portada {
+body div.containerIndex section.portada, body div.containerEmpresa section.portada {
   margin: 30px;
 }
 
-body div.containerIndex section.portada article.carousel__inicio, body div.containerEmprendimientos section.portada article.carousel__inicio, body div.containerEmpresa section.portada article.carousel__inicio {
+body div.containerIndex section.portada article.carousel__inicio, body div.containerEmpresa section.portada article.carousel__inicio {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,7 +75,7 @@ body div.containerIndex section.portada article.carousel__inicio, body div.conta
           justify-content: center;
 }
 
-body div.containerIndex section.portada article.carousel__inicio > h1.carousel__inicio--destacado, body div.containerEmprendimientos section.portada article.carousel__inicio > h1.carousel__inicio--destacado, body div.containerEmpresa section.portada article.carousel__inicio > h1.carousel__inicio--destacado {
+body div.containerIndex section.portada article.carousel__inicio > h1.carousel__inicio--destacado, body div.containerEmpresa section.portada article.carousel__inicio > h1.carousel__inicio--destacado {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -85,7 +85,7 @@ body div.containerIndex section.portada article.carousel__inicio > h1.carousel__
   margin: 50px 0px 10px 0px;
 }
 
-body div.containerIndex section.portada article.carousel__inicio .carousel__inicio--parrafoLema, body div.containerEmprendimientos section.portada article.carousel__inicio .carousel__inicio--parrafoLema, body div.containerEmpresa section.portada article.carousel__inicio .carousel__inicio--parrafoLema {
+body div.containerIndex section.portada article.carousel__inicio .carousel__inicio--parrafoLema, body div.containerEmpresa section.portada article.carousel__inicio .carousel__inicio--parrafoLema {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -95,7 +95,7 @@ body div.containerIndex section.portada article.carousel__inicio .carousel__inic
   margin: 30px 50px 50px 50px;
 }
 
-body div.containerIndex section.estiloConstrucciones, body div.containerEmprendimientos section.estiloConstrucciones, body div.containerEmpresa section.estiloConstrucciones {
+body div.containerIndex section.estiloConstrucciones, body div.containerEmpresa section.estiloConstrucciones {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +112,7 @@ body div.containerIndex section.estiloConstrucciones, body div.containerEmprendi
   margin: 30px;
 }
 
-body div.containerIndex section.estiloConstrucciones > h1, body div.containerEmprendimientos section.estiloConstrucciones > h1, body div.containerEmpresa section.estiloConstrucciones > h1 {
+body div.containerIndex section.estiloConstrucciones > h1, body div.containerEmpresa section.estiloConstrucciones > h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -121,14 +121,12 @@ body div.containerIndex section.estiloConstrucciones > h1, body div.containerEmp
   margin: 30px;
 }
 
-body div.containerIndex section.estiloConstrucciones .card-group, body div.containerEmprendimientos section.estiloConstrucciones .card-group, body div.containerEmpresa section.estiloConstrucciones .card-group {
+body div.containerIndex section.estiloConstrucciones .card-group, body div.containerEmpresa section.estiloConstrucciones .card-group {
   margin: 10px;
 }
 
 body div.containerEmprendimientos {
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
 }
 
@@ -137,28 +135,36 @@ body div.containerEmprendimientos section.imagenEmprendimientos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 
-body div.containerEmprendimientos section.imagenEmprendimientos div > .imagenEmprendimientos_titulos {
-  background-color: red;
-  width: 80%;
-  text-align: center;
+body div.containerEmprendimientos section.imagenEmprendimientos > div {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body div.containerEmprendimientos section.imagenEmprendimientos div > h2 {
+body div.containerEmprendimientos section.imagenEmprendimientos > div > h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -168,17 +174,17 @@ body div.containerEmprendimientos section.imagenEmprendimientos div > h2 {
   text-align: center;
 }
 
-body div.containerEmprendimientos section.imagenEmprendimientos div > p {
+body div.containerEmprendimientos section.imagenEmprendimientos > div > p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #6f9aa9;
   line-height: 20px;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
 }
 
-body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal {
+body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imagenEmprendimientos_horizontal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,14 +195,14 @@ body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagen
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal > article {
+body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imagenEmprendimientos_horizontal > img {
   margin: 20px;
-}
-
-body div.containerEmprendimientos section.imagenEmprendimientos div > div.imagenEmprendimientos_horizontal > article > img {
-  width: 500px;
+  width: 50%;
 }
 
 body div.containerEmpresa {
@@ -419,6 +425,27 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
             justify-content: space-between;
     height: auto;
   }
+  body div.imagenEmprendimientos_horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body div.imagenEmprendimientos_horizontal > img {
+    margin: 5px;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -439,6 +466,30 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
         -ms-flex-align: center;
             align-items: center;
     height: auto;
+  }
+  body .containerEmprendimientos p {
+    font-size: 12px;
+  }
+  body .containerEmprendimientos div.imagenEmprendimientos_horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  body .containerEmprendimientos div.imagenEmprendimientos_horizontal > img {
+    margin: 5px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */
