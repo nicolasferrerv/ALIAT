@@ -214,8 +214,7 @@ body {
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: center;
-			article {
-				>h1 {
+				h1 {
 					font-family: 'Poppins', sans-serif;
 					font-size: $size-h1;
 					font-style: normal;
@@ -223,15 +222,10 @@ body {
 					color: $color-titles;
 					margin: 100px 0px 0px;
 				}
-			}
-			article {
-				>div.card-group {
+				.card-group {
 					margin: 70px;
-					display: flex;
-					flex-direction: row;
-					justify-content: space-between;
 				}
-			}
+			
 
 		}
 	}
@@ -307,6 +301,7 @@ body {
 	}
 
 @media only screen and (max-width: 400px) {
+
 	footer.zocalo {
 		
 		display: flex;

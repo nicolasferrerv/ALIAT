@@ -307,7 +307,7 @@ body div.containerMedios section.cuerpoMedios {
           align-items: center;
 }
 
-body div.containerMedios section.cuerpoMedios article > h1 {
+body div.containerMedios section.cuerpoMedios h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -316,18 +316,8 @@ body div.containerMedios section.cuerpoMedios article > h1 {
   margin: 100px 0px 0px;
 }
 
-body div.containerMedios section.cuerpoMedios article > div.card-group {
+body div.containerMedios section.cuerpoMedios .card-group {
   margin: 70px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 body div.containerContacto {
