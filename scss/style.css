@@ -331,27 +331,14 @@ body div.containerContacto {
 }
 
 body div.containerContacto > section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px;
+  margin: 10px 0px;
 }
 
-body div.containerContacto > section > article form {
-  width: 80%;
+body div.containerContacto > section form {
+  width: 100%;
 }
 
-body div.containerContacto > section > article legend {
+body div.containerContacto > section form legend {
   font-family: 'Poppins', sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -360,12 +347,17 @@ body div.containerContacto > section > article legend {
   margin: 70px 0px 0px;
 }
 
-body div.containerContacto > section > article i {
+body div.containerContacto > section form i {
   color: #6f9aa9;
 }
 
-body div.containerContacto > section > article .form-group {
+body div.containerContacto > section form .form-group {
   margin: 10px;
+}
+
+body div.containerContacto > section form button {
+  background-color: #233f56;
+  margin-top: 10px;
 }
 
 body footer.zocalo {

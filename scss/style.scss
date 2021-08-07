@@ -225,31 +225,27 @@ body {
 	div.containerContacto {
 		width: 100%;
 		>section {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-		
-			margin: 20px;
-			>article {
+			margin: 10px 0px;
 				form {
-					width: 80%;
-				}
-				legend {
-					font-family: 'Poppins', sans-serif;
-					font-size: $size-h1;
-					font-style: normal;
-					font-weight: bold;
-					color: $color-titles;
-					margin: 70px 0px 0px;
-				}
-				i {
-					color: $color-titles;
-				}
-				.form-group {
-					margin: 10px;
-				}
-				
+					width: 100%;
+					legend {
+						font-family: 'Poppins', sans-serif;
+						font-size: $size-h1;
+						font-style: normal;
+						font-weight: bold;
+						color: $color-titles;
+						margin: 70px 0px 0px;
+					}
+					i {
+						color: $color-titles;
+					}
+					.form-group {
+						margin: 10px;
+					}
+					button {
+						background-color: $color-nav;
+						margin-top: 10px;
+					}
 			}
 		}
 	}
