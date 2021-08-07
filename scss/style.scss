@@ -170,28 +170,28 @@ body {
 			}
   		}
 		
-		section.tabla {
+		section.cuerpoUbicaciones {
 			margin: 10px;
-			article {
-				.tituloTabla {
-					font-family: 'Roboto', sans-serif;
-					font-size: $size-h2;
+			.tituloTabla {
+				font-family: 'Roboto', sans-serif;
+				font-size: $size-h2;
+				color: $color-titles;
+				font-style: normal;
+				font-weight: bold;
+				text-align: left;
+				text-transform: uppercase;
+				margin: 30px;
+			}
+			.card {
+				margin-top: 10px;
+				h5 {
 					color: $color-titles;
-					font-style: italic;
-					font-weight: bold;
-					text-align: left;
-					text-transform: uppercase;
-					margin: 30px;
 				}
-				.card {
-					margin-top: 10px;
-					h5 {
-						color: $color-titles;
-					}
-					p {
-						color: $color-nav;
-					}
+				p {
+					color: $color-nav;
 				}
+			}
+			article {
 				>table {
 					margin-top: 30px;
 					th {

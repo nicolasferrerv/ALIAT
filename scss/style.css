@@ -255,52 +255,52 @@ body div.containerEmpresa section.encabezadoIntroductorio article > p {
   margin-top: 10px;
 }
 
-body div.containerEmpresa section.tabla {
+body div.containerEmpresa section.cuerpoUbicaciones {
   margin: 10px;
 }
 
-body div.containerEmpresa section.tabla article .tituloTabla {
+body div.containerEmpresa section.cuerpoUbicaciones .tituloTabla {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: #6f9aa9;
-  font-style: italic;
+  font-style: normal;
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
   margin: 30px;
 }
 
-body div.containerEmpresa section.tabla article .card {
+body div.containerEmpresa section.cuerpoUbicaciones .card {
   margin-top: 10px;
 }
 
-body div.containerEmpresa section.tabla article .card h5 {
+body div.containerEmpresa section.cuerpoUbicaciones .card h5 {
   color: #6f9aa9;
 }
 
-body div.containerEmpresa section.tabla article .card p {
+body div.containerEmpresa section.cuerpoUbicaciones .card p {
   color: #233f56;
 }
 
-body div.containerEmpresa section.tabla article > table {
+body div.containerEmpresa section.cuerpoUbicaciones article > table {
   margin-top: 30px;
 }
 
-body div.containerEmpresa section.tabla article > table th {
+body div.containerEmpresa section.cuerpoUbicaciones article > table th {
   color: #6f9aa9;
 }
 
-body div.containerEmpresa section.tabla article > table td {
+body div.containerEmpresa section.cuerpoUbicaciones article > table td {
   font-family: 'Roboto', sans-serif;
   color: #233f56;
 }
 
-body div.containerEmpresa section.tabla article > table td > ol {
+body div.containerEmpresa section.cuerpoUbicaciones article > table td > ol {
   list-style: none;
   list-style-position: inside;
 }
 
-body div.containerEmpresa section.tabla article > table td > ul {
+body div.containerEmpresa section.cuerpoUbicaciones article > table td > ul {
   list-style: none;
 }
 
