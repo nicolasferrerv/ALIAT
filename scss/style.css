@@ -176,7 +176,7 @@ body div.containerEmprendimientos section.imagenEmprendimientos > div > h2 {
   font-size: 30px;
   font-style: normal;
   font-weight: bold;
-  color: #233f56;
+  color: #6f9aa9;
   margin: 10px;
   text-align: center;
 }
@@ -185,7 +185,7 @@ body div.containerEmprendimientos section.imagenEmprendimientos > div > p {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: normal;
-  color: #6f9aa9;
+  color: #233f56;
   margin: 10px;
   text-align: justify;
 }
@@ -225,11 +225,9 @@ body div.containerEmpresa section.encabezadoIntroductorio {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -253,15 +251,15 @@ body div.containerEmpresa section.encabezadoIntroductorio article > p {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: normal;
-  color: #6f9aa9;
-  line-height: 20px;
+  color: #233f56;
+  margin-top: 10px;
 }
 
 body div.containerEmpresa section.tabla {
   margin: 10px;
 }
 
-body div.containerEmpresa section.tabla article h1.tituloTabla {
+body div.containerEmpresa section.tabla article .tituloTabla {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   color: #6f9aa9;
@@ -269,11 +267,32 @@ body div.containerEmpresa section.tabla article h1.tituloTabla {
   font-weight: bold;
   text-align: left;
   text-transform: uppercase;
+  margin: 30px;
+}
+
+body div.containerEmpresa section.tabla article .card {
+  margin-top: 10px;
+}
+
+body div.containerEmpresa section.tabla article .card h5 {
+  color: #6f9aa9;
+}
+
+body div.containerEmpresa section.tabla article .card p {
+  color: #233f56;
+}
+
+body div.containerEmpresa section.tabla article > table {
+  margin-top: 30px;
+}
+
+body div.containerEmpresa section.tabla article > table th {
+  color: #6f9aa9;
 }
 
 body div.containerEmpresa section.tabla article > table td {
   font-family: 'Roboto', sans-serif;
-  color: #6f9aa9;
+  color: #233f56;
 }
 
 body div.containerEmpresa section.tabla article > table td > ol {
