@@ -130,6 +130,7 @@ body {
 						>img {
 							margin: 20px;
 							width: 50%;
+							max-width: 700px;
 						}
 					
 				}
@@ -304,7 +305,15 @@ body {
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
 
-	
+	h1 {
+		font-size: $size-h2;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	p {
+		font-size: $size-small;
+	}
 	footer.zocalo {
 		display: flex;
 		flex-direction: column;
@@ -312,7 +321,7 @@ body {
 		justify-content: space-between;
 		height: auto;
 		}
-	div.imagenEmprendimientos_horizontal {	
+	.imagenEmprendimientos_horizontal {	
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
@@ -321,13 +330,22 @@ body {
 				>img {
 					margin: 5px;
 					width: 100%;
+					min-width: 400px;
 				}
 		}
 	}
 
 
 @media only screen and (max-width: 400px) {
-
+	h1 {
+		font-size: $size-p;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 12px;
+	}
 	footer.zocalo {	
 		display: flex;
 		flex-direction: column;
@@ -337,10 +355,8 @@ body {
 		height: auto;
 		}
 	.containerEmprendimientos {
-		p {
-			font-size: $size-small;
-		}
-		div.imagenEmprendimientos_horizontal {	
+		.imagenEmprendimientos {
+		.imagenEmprendimientos_horizontal {	
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
@@ -349,8 +365,10 @@ body {
 				>img {
 					margin: 5px;
 					width: 100%;
+					min-width: none;
 				}
 		}
+	}
 	}
 }
 }

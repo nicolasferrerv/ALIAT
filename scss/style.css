@@ -209,6 +209,7 @@ body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imag
 body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imagenEmprendimientos_horizontal > img {
   margin: 20px;
   width: 50%;
+  max-width: 700px;
 }
 
 body div.containerEmpresa {
@@ -435,6 +436,15 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
 }
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
+  body h1 {
+    font-size: 30px;
+  }
+  body h2 {
+    font-size: 26px;
+  }
+  body p {
+    font-size: 14px;
+  }
   body footer.zocalo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -450,7 +460,7 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
             justify-content: space-between;
     height: auto;
   }
-  body div.imagenEmprendimientos_horizontal {
+  body .imagenEmprendimientos_horizontal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -467,13 +477,23 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
         -ms-flex-align: center;
             align-items: center;
   }
-  body div.imagenEmprendimientos_horizontal > img {
+  body .imagenEmprendimientos_horizontal > img {
     margin: 5px;
     width: 100%;
+    min-width: 400px;
   }
 }
 
 @media only screen and (max-width: 400px) {
+  body h1 {
+    font-size: 22px;
+  }
+  body h2 {
+    font-size: 20px;
+  }
+  body p {
+    font-size: 12px;
+  }
   body footer.zocalo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -492,10 +512,7 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
             align-items: center;
     height: auto;
   }
-  body .containerEmprendimientos p {
-    font-size: 14px;
-  }
-  body .containerEmprendimientos div.imagenEmprendimientos_horizontal {
+  body .containerEmprendimientos .imagenEmprendimientos .imagenEmprendimientos_horizontal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -512,9 +529,10 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
         -ms-flex-align: center;
             align-items: center;
   }
-  body .containerEmprendimientos div.imagenEmprendimientos_horizontal > img {
+  body .containerEmprendimientos .imagenEmprendimientos .imagenEmprendimientos_horizontal > img {
     margin: 5px;
     width: 100%;
+    min-width: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
