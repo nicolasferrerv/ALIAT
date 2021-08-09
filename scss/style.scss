@@ -91,6 +91,7 @@ body {
 	div.containerEmprendimientos {
 		width: 100vw;
 		min-height: 100vh;
+		max-width: 100%;
 		section.imagenEmprendimientos {
 			margin: 70px;
 			display: flex;
@@ -118,7 +119,6 @@ body {
 					font-size: $size-p;
 					font-weight: normal;
 					color: $color-nav;
-					
 					margin: 10px;
 					text-align: justify;
 				}
@@ -128,9 +128,9 @@ body {
 					justify-content: center;	
 					align-items: center;			
 						>img {
-							margin: 20px;
+							margin: 10px;
 							width: 50%;
-							max-width: 700px;
+							max-width: 650px;
 						}
 					
 				}
@@ -283,9 +283,7 @@ body {
 		align-items: center;
 		height: 5rem;
 		width: 100%;
-		img.zocalo__logo {
-			width: 20%;
-		}
+		padding: 0px 3rem;
 		>div>a.zocalo__logoRedes {
 			font-size: 2rem;
 			color: $color-footer ;

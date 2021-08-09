@@ -135,6 +135,7 @@ body div.containerIndex section.estiloConstrucciones .card-group p, body div.con
 body div.containerEmprendimientos {
   width: 100vw;
   min-height: 100vh;
+  max-width: 100%;
 }
 
 body div.containerEmprendimientos section.imagenEmprendimientos {
@@ -207,9 +208,9 @@ body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imag
 }
 
 body div.containerEmprendimientos section.imagenEmprendimientos > div > div.imagenEmprendimientos_horizontal > img {
-  margin: 20px;
+  margin: 10px;
   width: 50%;
-  max-width: 700px;
+  max-width: 650px;
 }
 
 body div.containerEmpresa {
@@ -411,10 +412,7 @@ body footer.zocalo {
           align-items: center;
   height: 5rem;
   width: 100%;
-}
-
-body footer.zocalo img.zocalo__logo {
-  width: 20%;
+  padding: 0px 3rem;
 }
 
 body footer.zocalo > div > a.zocalo__logoRedes {
