@@ -111,7 +111,7 @@ body {
 					font-style: normal;
 					font-weight: bold;
 					color: $color-titles;
-					margin: 10px;
+					margin: 0.9rem;
 					text-align: center;
 				}
 				>p {
@@ -227,16 +227,16 @@ body {
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: center;
-				h1 {
+				h2 {
 					font-family: 'Poppins', sans-serif;
-					font-size: $size-h1;
+					font-size: $size-h2;
 					font-style: normal;
 					font-weight: bold;
 					color: $color-titles;
-					margin: 100px 0px 0px;
+					margin-top: 5rem;
 				}
 				.card-group {
-					margin: 70px;
+					margin: 3rem;
 					h5 {
 						color: $color-titles;
 					}
@@ -302,6 +302,10 @@ body {
 	}
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
+	max-width: 100%;
+	h1 {
+		font-size: $size-h2;
+	}
 	footer.zocalo {
 		display: flex;
 		flex-direction: column;
@@ -325,6 +329,10 @@ body {
 
 
 @media only screen and (max-width: 400px) {
+	max-width: 100%;
+	h1 {
+		font-size: $size-h2;
+	}
 	footer.zocalo {	
 		display: flex;
 		flex-direction: column;

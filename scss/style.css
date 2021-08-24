@@ -178,7 +178,7 @@ body div.containerEmprendimientos section.imagenEmprendimientos > div > h2 {
   font-style: normal;
   font-weight: bold;
   color: #6f9aa9;
-  margin: 10px;
+  margin: 0.9rem;
   text-align: center;
 }
 
@@ -340,17 +340,17 @@ body div.containerMedios section.cuerpoMedios {
           align-items: center;
 }
 
-body div.containerMedios section.cuerpoMedios h1 {
+body div.containerMedios section.cuerpoMedios h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: bold;
   color: #6f9aa9;
-  margin: 100px 0px 0px;
+  margin-top: 5rem;
 }
 
 body div.containerMedios section.cuerpoMedios .card-group {
-  margin: 70px;
+  margin: 3rem;
 }
 
 body div.containerMedios section.cuerpoMedios .card-group h5 {
@@ -434,6 +434,12 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
 }
 
 @media only screen and (min-width: 401px) and (max-width: 768px) {
+  body {
+    max-width: 100%;
+  }
+  body h1 {
+    font-size: 1.7rem;
+  }
   body footer.zocalo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -474,6 +480,12 @@ body footer.zocalo > div.zocalo__informacion > h4.zocalo__informacion--suave {
 }
 
 @media only screen and (max-width: 400px) {
+  body {
+    max-width: 100%;
+  }
+  body h1 {
+    font-size: 1.7rem;
+  }
   body footer.zocalo {
     display: -webkit-box;
     display: -ms-flexbox;
